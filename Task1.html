@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color:white;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        h1{
+            text-align: center;background-color: rgb(92, 151, 240);
+            margin: 0;
+            height:85px;
+            color:white;
+            font-size: xx-large;
+            padding-top: 35px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            padding:3px;
+            padding-left: 0px;
+            font-weight: normal;
+        }
+        .container {
+            display: flex;
+            height: 100vh; 
+        }
+        #black{
+            background-color :black;
+            width:17%;
+        }
+        #white{
+            background-color: rgb(231, 247, 250);
+            width:83%;
+        }
+        #line1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            font-size: 115%;
+            font-weight: 600;
+        }
+        #line2{
+            display: flex;
+            justify-content: space-between;
+            font-size:110%;
+        }
+        #line3{
+            display: flex;
+            justify-content:space-between;
+            font-size: 110%;
+        }
+        .first{
+            height:45px;
+            width:290px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 7px;
+            border-left: 5px solid blue;
+            padding-top: 17px;
+            text-align: center;
+            margin: 10px;
+         }
+        .Second{
+            height:45px;
+            width:500px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-radius: 7px;
+            padding-top: 16px;
+            font-weight: normal;
+            padding-left: 20px;
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 >Dashboard Layout</h1>
+    <div class="container">
+    <div id="black">
+        <ul>
+            <li><b style="font-size: larger;">Menu</b></li>
+            <BR>
+            <li>Dashboard</li>
+            <li>Analytics</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+    </div>
+    <div id="white">
+        <div id="line1">
+            <div class="first">Users: 1200</div>
+            <div class="first">Sales: $75000</div>
+            <div class="first">Visitors: 5400</div>
+            <div class="first">Bounce Rate: 32%</div>
+        </div>
+        <div id="line2">
+            <div class="Second">Card 1 Nested Grid</div>
+            <div class="Second">Card 2 Responsive</div>
+            <div class="Second">Card 3 Large</div>
+        </div>
+        <div id="line3">
+            <div class="Second">Card 4 Medium</div>
+            <div class="Second">Card 5 Hard UI</div>
+            <div class="Second">Card 6 CSS Practice</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
