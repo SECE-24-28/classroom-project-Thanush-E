@@ -1,0 +1,38 @@
+
+table, tr, td, th {
+  padding: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.mainForm > table {
+  text-align: center;
+  justify-content: center;
+}
+
+.mainForm {
+  text-align: center;
+  width: max-content;
+  margin: 20px auto;
+  background-color: rgb(250, 250, 117);
+}
+
+
+input {
+  border: 2px solid black;
+}
+
+input[type="submit"]{
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.Display table,
+.Display tr,
+.Display td,
+.Display th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
