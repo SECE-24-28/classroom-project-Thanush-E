@@ -1,0 +1,20 @@
+{
+  "customers": [
+    {
+      "id": "48ed",
+      "name": "Thanush",
+      "email": "thanush2007@gmail.com",
+      "raid":[],
+      "Password": "thanush#2007#"
+      
+      
+    },
+    {
+      "id": "c1c5",
+      "name": "Thanush",
+      "email": "thanush.e2024ece@sece.ac.in",
+      "raid":["Madurai","Coimbatore"],
+      "password": "thanush"
+    }
+  ]
+}
